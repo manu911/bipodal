@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "/page",
+  basePath: "/app/page",
   output: "export",  // <=== enables static exports
   reactStrictMode: true,
 };
