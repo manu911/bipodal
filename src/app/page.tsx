@@ -7,6 +7,6 @@ import '@fontsource/roboto/700.css';
 
 export default function Home() {
   return (
-    <Layout></Layout>
+    <Layout>asdas</Layout>
   );
 }
