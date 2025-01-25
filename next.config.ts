@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/page",
+  basePath: "/bipodal",
   output: "export",
   reactStrictMode: true,
 };
