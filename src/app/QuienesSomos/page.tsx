@@ -10,7 +10,7 @@ export default function Servicios() {
   return (
     <Layout>
       <div className={styles.page}>
-        El Garci & company
+        El Garci & companyasdfasdfa
       </div>
     </Layout>
   );
