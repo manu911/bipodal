@@ -1,10 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  basePath: "/app/page",
-  output: "export",  // <=== enables static exports
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  basePath: "/2048-in-react",
+  output: "export",
   reactStrictMode: true,
 };
 
-export default nextConfig;
-
+module.exports = nextConfig;
