@@ -19,7 +19,7 @@ export default function Page() {
 
     <RootLayout>
       <MainLayout>
-
+      <script async src={"https://maps.googleapis.com/maps/api/js?key="+mapskey+"&libraries=places"}></script>
         <div className={styles.clinicaImgContainer}>
           <Image className={styles.logoImg} src='./Bipodal-clinica.jpg' alt="Interior Clinica Bipodal" width="500" height="700" style={{ position: "relative" }} />
         </div>
