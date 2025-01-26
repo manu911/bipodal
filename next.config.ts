@@ -8,8 +8,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/miau/' : '',
-  basePath: isProd ? '/miau' : '',
+  assetPrefix: isProd ? '/bipodal/' : '',
+  basePath: isProd ? '/bipodal' : '',
   output: 'export'
 };
 
