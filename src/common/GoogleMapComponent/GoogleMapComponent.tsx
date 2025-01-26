@@ -24,7 +24,7 @@ const GoogleMapComponent = () => {
     zoomControl: true,
     tilt: 0,
     gestureHandling: 'auto',
-    mapTypeId: 'satellite',
+    mapTypeId: 'roadmap',
   };
   return (
     <LoadScript {...{ "googleMapsApiKey": mapskey }}>
@@ -37,7 +37,6 @@ const GoogleMapComponent = () => {
         <InfoWindow position={center}>
           <div>
             <Logo/>
-            <span>Clinica BIPODAL</span>
           </div>
         </InfoWindow>
         <Marker position={center} />

@@ -18,6 +18,11 @@ export default function Logo({ children, size = Size.XS }: LogoProps) {
     let srcLogo="./Logo-L.png";
  
         switch (size) {
+            case Size.XXS:
+                heightLogo = 35;
+                widthLogo = 45;
+                srcLogo="./Logo-S.png";
+            break;
             case Size.XS:
                 heightLogo = 50;
                 widthLogo = 60;
@@ -56,7 +61,7 @@ export default function Logo({ children, size = Size.XS }: LogoProps) {
                 priority
             />
           
-            <span className={`${roboto.className}  ${styles.bipodalTitle}`}>BIPODAL</span>
+            <span className={`${roboto.className}  ${styles.bipodalTitle} size-${size}`}>BIPODAL</span>
 
             {children}
         </div>
