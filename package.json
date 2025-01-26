@@ -2,11 +2,15 @@
   "name": "bipodal",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://manu911.github.io/bipodal",
+
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
@@ -31,4 +35,5 @@
     "eslint-config-next": "15.1.4",
     "typescript": "^5"
   }
+  
 }
