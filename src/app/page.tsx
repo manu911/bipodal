@@ -17,7 +17,9 @@ export default function Page() {
 
     <RootLayout>
       <MainLayout>
-      <div id="asdasd" data-miau={process.env.NODE_ENV}>asd: {process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}</div>
+      <div id="asdasd" data-mode={process.env.NODE_ENV} data-ki={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY} data-test={process.env.TEST}>
+        asd: {process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}
+        </div>
         <div className={styles.clinicaImgContainer}>
           <Image className={styles.logoImg} src='./Bipodal-clinica.jpg' alt="Interior Clinica Bipodal" width="500" height="700" style={{ position: "relative" }} />
         </div>
