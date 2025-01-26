@@ -22,14 +22,18 @@
 @media (max-width: 768px) {
     .navbarContainer {
         width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
         .burguerNavBarGroup {
-            display: flex;
-            justify-content: flex-end;
-            
+            display: block;
+            margin-right:20px;
         }
 
         .navBarGroup {
             display: none;
+            height: 100%;
         }
+       
     }
 }

@@ -15,28 +15,28 @@ export default function Logo({ children, size = Size.XS }: LogoProps) {
    
     let heightLogo = 100;
     let widthLogo = 120;
-    let srcLogo="/Logo-L.png";
+    let srcLogo="./Logo-L.png";
  
         switch (size) {
             case Size.XS:
                 heightLogo = 50;
                 widthLogo = 60;
-                srcLogo="/Logo-S.png";
+                srcLogo="./Logo-S.png";
             break;
             case Size.S:
                 heightLogo = 100;
                 widthLogo = 120;
-                srcLogo="/Logo-S.png";
+                srcLogo="./Logo-S.png";
             break;
             case Size.M:
                 heightLogo = 220;
                 widthLogo = 280;
-                srcLogo="/Logo-S.png";
+                srcLogo="./Logo-S.png";
             break;
             case Size.L:
                 heightLogo = 360;
                 widthLogo = 420;
-                srcLogo="/Logo-L.png";
+                srcLogo="./Logo-L.png";
               
             break;
     
