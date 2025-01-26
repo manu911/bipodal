@@ -2,6 +2,7 @@
 import React from 'react';
 import { GoogleMap, InfoWindow, LoadScript, Marker } from '@react-google-maps/api';
 import { config } from 'dotenv';
+import Logo from '../Logo/Logo';
 
 config();
 const mapskey: string = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY?.toString() || "";
@@ -35,7 +36,8 @@ const GoogleMapComponent = () => {
       >
         <InfoWindow position={center}>
           <div>
-            <p>BIPODAL</p>
+            <Logo/>
+            <span>Clinica BIPODAL</span>
           </div>
         </InfoWindow>
         <Marker position={center} />
