@@ -1,8 +1,12 @@
-/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
-  // basePath: "/bipodal",
-  output: "export",
   reactStrictMode: true,
+  images: {
+    unoptimized: true, // Disable default image optimization
+  },
+  assetPrefix: isProd ? '/your-repository-name/' : '',
+  basePath: isProd ? '/your-repository-name' : '',
+  output: 'export'
 };
 
-module.exports = nextConfig;
+export default nextConfig;
