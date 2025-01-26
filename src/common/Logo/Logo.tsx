@@ -8,7 +8,7 @@ interface LogoProps {
     children?: ReactNode
     size?: Size;
 }
-const roboto = Roboto({ weight: "700" });
+const roboto = Roboto({ weight: "700", subsets: ["latin"] });
 
 export default function Logo({ children, size = Size.XS }: LogoProps) {
    

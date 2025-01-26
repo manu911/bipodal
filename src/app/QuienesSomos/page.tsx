@@ -1,6 +1,5 @@
 
 // import styles from "./page.module.css";
-import Head from 'next/head';
 import Layout from "@/common/mainLayout/mainLayout";
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
