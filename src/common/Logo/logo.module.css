@@ -10,7 +10,7 @@
   display: flex;
   gap:10px;
 }
-.size-0{
+.sizeXXS{
   font-size: 1rem!important;
 }
 @media (max-width: 768px) {

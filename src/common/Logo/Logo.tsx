@@ -60,8 +60,11 @@ export default function Logo({ children, size = Size.XS }: LogoProps) {
                 alt="Logo Bipodal"
                 priority
             />
-          
-            <span className={`${roboto.className}  ${styles.bipodalTitle} size-${size}`}>BIPODAL</span>
+          {
+            size === Size.XXS && 
+            <span className={`${roboto.className}  ${styles.bipodalTitle} ${styles.sizeXXS}}`}>BIPODAL</span>
+          }
+            <span className={`${roboto.className}  ${styles.bipodalTitle}`}>BIPODAL</span>
 
             {children}
         </div>
