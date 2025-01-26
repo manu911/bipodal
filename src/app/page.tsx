@@ -20,6 +20,7 @@ export default function Page() {
         <div id="asdasd" data-mode={process.env.NODE_ENV} data-ki={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY} data-test={process.env.TEST}>
           asd: `${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }`
         </div>
+        {process.env.TEST==="LOCAL" ? <div>local</div>:<div>not local</div>}
         <div className={styles.clinicaImgContainer}>
           <Image className={styles.logoImg} src='./Bipodal-clinica.jpg' alt="Interior Clinica Bipodal" width="500" height="700" style={{ position: "relative" }} />
         </div>
