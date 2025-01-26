@@ -10,3 +10,8 @@
   display: flex;
   gap:10px;
 }
+@media (max-width: 768px) {
+  .bipodalTitle{
+    font-size: 1rem;
+  }
+}
