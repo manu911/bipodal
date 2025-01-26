@@ -5,23 +5,33 @@ import { config } from 'dotenv';
 
 config();
 const mapskey :string = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY?.toString() || "";
-const containerStyle = {
-  width: '100%',
-  height: '400px'
-};
+
 
 const center = {
-  lat: 37.437041393899676,
-  lng: -4.191635586788259
+  lat: 38.363133961428275, 
+  lng: -0.4935381577044199
 };
 
 const GoogleMapComponent = () => {
+
+const defaultMapContainerStyle = {
+  width: '400px',
+  height: '400px',
+  borderRadius: '20px',
+};
+const defaultMapOptions = {
+  zoomControl: true,
+  tilt: 0,
+  gestureHandling: 'auto',
+  mapTypeId: 'satellite',
+};
   return (
     <LoadScript {...{ "googleMapsApiKey": mapskey }}>
       <GoogleMap
-        mapContainerStyle={containerStyle}
+        mapContainerStyle={defaultMapContainerStyle}
         center={center}
         zoom={10}
+        options={defaultMapOptions}
       >
         <Marker position={center} />
       </GoogleMap>
