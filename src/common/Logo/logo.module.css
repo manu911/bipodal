@@ -1,0 +1,12 @@
+.bipodalTitle{
+  letter-spacing: 0.3em;
+  font-size: 2.7rem;
+  color:#4A5064;
+  line-height: 50px;
+ 
+}
+.logoContainer{
+  align-items: center;
+  display: flex;
+  gap:10px;
+}

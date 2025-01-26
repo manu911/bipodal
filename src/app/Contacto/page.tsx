@@ -9,13 +9,6 @@ import '@fontsource/roboto/700.css';
 
 export default function Servicios() {
   return (
-    <html>
-      <Head>
-        <meta name="viewport" content="initial-scale=1, width=device-width" />
-      </Head>
-      <body>
         <Layout></Layout>
-      </body>
-    </html>
   );
 }
