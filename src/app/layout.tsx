@@ -4,6 +4,7 @@ export default function RootLayout({
 }: {
     children: React.ReactNode
 }) {
+    const mapskey: string = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY?.toString() || "";
     return (
         <html>
             <Head>
