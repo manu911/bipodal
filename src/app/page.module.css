@@ -1,6 +1,7 @@
 
 .clinicaImgContainer{
   width:400px;
+  max-width:100vw;
   height:700px;
   overflow: hidden;
   border-radius: 20px;
