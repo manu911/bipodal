@@ -13,10 +13,10 @@ class Map extends React.Component {
       fields: ["name", "geometry"]
     };
 
-    const service = new google.maps.places.PlacesService(map);
+    const service = new window.google.maps.places.PlacesService(map);
 
     service.findPlaceFromQuery(request, (results, status) => {
-      if (status === google.maps.places.PlacesServiceStatus.OK) {
+      if (status === window.google.maps.places.PlacesServiceStatus.OK) {
         if (results && results[0] && results[0].geometry) {
           this.setState({
             center: results[0].geometry.location,
