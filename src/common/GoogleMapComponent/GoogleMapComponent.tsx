@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, InfoWindow, LoadScript, Marker } from '@react-google-maps/api';
 import { config } from 'dotenv';
 
 config();
@@ -30,14 +30,16 @@ const GoogleMapComponent = () => {
       <GoogleMap
         mapContainerStyle={defaultMapContainerStyle}
         center={center}
-        zoom={20}
+        zoom={17}
         options={defaultMapOptions}
       >
-        
+        <InfoWindow position={center}>
+          <div>
+            <p>BIPODAL</p>
+          </div>
+        </InfoWindow>
+        <Marker position={center} />
 
-          <span>bipodalll</span>
-          <Marker position={center} />
-      
 
       </GoogleMap>
     </LoadScript>
