@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { GoogleMap, LoadScript, AdvancedMarkerElement, InfoBox } from '@react-google-maps/api';
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 import { config } from 'dotenv';
 
 config();
@@ -34,8 +34,7 @@ const GoogleMapComponent = () => {
         zoom={20}
         options={defaultMapOptions}
       >
-        <gmp-AdvancedMarkerElement-marker position="38.363133961428275,-0.4935381577044199" title="string"></gmp-AdvancedMarkerElement-marker>
-        {/* <Marker position={center} /> */}
+                {/* <Marker position={center} /> */}
       </GoogleMap>
     </LoadScript>
   );
