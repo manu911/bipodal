@@ -43,10 +43,12 @@
 @media(max-width: 768px) {
     .containerPageBienvenido {
         flex-direction: column;
+        padding: 5px;
     }
 
     .textContainer {
-        width: 80vw;
+        width: 85vw;
+        padding:0;
     }
 
     .clinicaImgContainer {
