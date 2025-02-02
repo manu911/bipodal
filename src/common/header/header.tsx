@@ -12,6 +12,7 @@ export default function Header() {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       const scrollPercent = (scrollTop / docHeight) * 100;
+      console.log(scrollPercent);
       setProgress(scrollPercent);
     };
     window.addEventListener('scroll', handleScroll);

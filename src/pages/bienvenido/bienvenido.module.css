@@ -1,14 +1,15 @@
-.containerPageBienvenido{
+.containerPageBienvenido {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f2f2f2;
-    padding:20px;
-    
-    
+    padding: 20px;
+    height: auto;
 }
-.textContainer{ 
+
+.textContainer {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -21,29 +22,39 @@
 
 /* next class will be at the right side using the 50% of the container */
 
-.clinicaImgContainer{
-    width:50%;
+.clinicaImgContainer {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    img.logoImg{
+    gap: 20px;
+
+    img.logoImg {
         align-self: center;
         border-radius: 20px;
-        width:500px;
-        height:700px;
+        width: 35vw;
+        height: 700px;
         object-position: 38% 100%;
         object-fit: cover;
     }
 }
-/*write a media querio for less than medium size viewport our class containerPageBienvenido will be wrap*/
-@media (max-width: 768px){
-    .containerPageBienvenido{
-        flex-wrap: wrap;
+
+@media(max-width: 768px) {
+    .containerPageBienvenido {
+        flex-direction: column;
     }
-    .textContainer{
-        width: 100%;
+
+    .textContainer {
+        width: 80vw;
     }
-    .clinicaImgContainer{
-        width: 100%;
+
+    .clinicaImgContainer {
+        width: 100vw;
+        img.logoImg {
+            width: 100vw;
+            height: 300px;
+            border-radius: 0px;
+            margin-left:-40px;
+        }
     }
 }
