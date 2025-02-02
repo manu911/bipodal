@@ -1,11 +1,9 @@
 'use client'
 import Image from 'next/image';
 import styles from './bienvenido.module.css';
-import { config } from 'dotenv';
 
 
 export default function Bienvenido() {
-    config();
     return (
 
         <div className={styles.containerPageBienvenido}>

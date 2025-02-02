@@ -6,13 +6,13 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html className={styles.html}>
+        <html className={styles.default}>
             <Head>
                 <title>Bipodal</title>
                 <link rel="icon" href="/vercel.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </Head>
-            <body>{children}</body>
+            <body className={styles.default}>{children}</body>
         </html>
     )
 }

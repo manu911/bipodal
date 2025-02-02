@@ -1,0 +1,11 @@
+.containerPageDondeEstamos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding:20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}

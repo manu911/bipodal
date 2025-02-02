@@ -2,7 +2,7 @@
 import MainLayout from "@/common/mainLayout/mainLayout";
 import RootLayout from "./layout";
 import { config } from 'dotenv';
-import GoogleMapComponent from '@/common/GoogleMapComponent/GoogleMapComponent';
+import DondeEstamos from '@/pages/dondeEstamos/dondeEstamos';
 import Bienvenido from '@/pages/bienvenido/bienvenido';
 import styles from './page.module.css';
 export default function Page() {
@@ -13,7 +13,7 @@ export default function Page() {
       <MainLayout >
         <div className={styles.mainLayout}>
           <Bienvenido></Bienvenido>
-          <GoogleMapComponent></GoogleMapComponent>
+          <DondeEstamos></DondeEstamos>
         </div>
       </MainLayout>
     </RootLayout>
