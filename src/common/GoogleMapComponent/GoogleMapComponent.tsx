@@ -28,23 +28,26 @@ const GoogleMapComponent = () => {
     mapTypeId: 'roadmap',
   };
   return (
-    <LoadScript {...{ "googleMapsApiKey": mapskey }}>
-      <GoogleMap
-        mapContainerStyle={defaultMapContainerStyle}
-        center={center}
-        zoom={17}
-        options={defaultMapOptions}
-      >
-        <InfoWindow position={center}>
-          <div>
-            <Logo size={Size.XXS}/>
-          </div>
-        </InfoWindow>
-        <Marker position={center} />
+    <div>
+
+      <LoadScript {...{ "googleMapsApiKey": mapskey }}>
+        <GoogleMap
+          mapContainerStyle={defaultMapContainerStyle}
+          center={center}
+          zoom={17}
+          options={defaultMapOptions}
+        >
+          <InfoWindow position={center}>
+            <div>
+              <Logo size={Size.XXS} />
+            </div>
+          </InfoWindow>
+          <Marker position={center} />
 
 
-      </GoogleMap>
-    </LoadScript>
+        </GoogleMap>
+      </LoadScript>
+    </div>
   );
 };
 

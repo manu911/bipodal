@@ -1,28 +1,20 @@
 'use client'
 import MainLayout from "@/common/mainLayout/mainLayout";
 import RootLayout from "./layout";
-import Image from 'next/image';
-import styles from './page.module.css';
 import { config } from 'dotenv';
-// import bipodalClinica from './Bipodal-clinica.jpg';
 import GoogleMapComponent from '@/common/GoogleMapComponent/GoogleMapComponent';
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
-
+import Bienvenido from '@/pages/bienvenido/bienvenido';
+import styles from './page.module.css';
 export default function Page() {
   config();
   return (
 
     <RootLayout>
-      <MainLayout>
-     
-        <div className={styles.clinicaImgContainer}>
-          <Image className={styles.logoImg} src='./Bipodal-clinica.jpg' alt="Interior Clinica Bipodal" width="500" height="700" style={{ position: "relative" }} />
+      <MainLayout >
+        <div className={styles.mainLayout}>
+          <Bienvenido></Bienvenido>
+          <GoogleMapComponent></GoogleMapComponent>
         </div>
-        <GoogleMapComponent></GoogleMapComponent>
-
       </MainLayout>
     </RootLayout>
 

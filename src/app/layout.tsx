@@ -1,11 +1,12 @@
 import Head from 'next/head';
+import styles from './layout.module.css';
 export default function RootLayout({
     children,
 }: {
     children: React.ReactNode
 }) {
     return (
-        <html>
+        <html className={styles.html}>
             <Head>
                 <title>Bipodal</title>
                 <link rel="icon" href="/vercel.ico" />

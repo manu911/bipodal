@@ -1,14 +1,7 @@
+.mainLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
 
-.clinicaImgContainer{
-  width:400px;
-  max-width:100vw;
-  height:700px;
-  overflow: hidden;
-  border-radius: 20px;
-  img.logoImg{
-    width:100%;
-    height:100%;
-    object-position: 38% 100%;
-    object-fit: cover;
-  }
-} 
+}
