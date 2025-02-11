@@ -4,10 +4,27 @@
         left: 0;
         bottom: 0;
         width: 100%;
-        height: 30px;
-        padding:20px;
+        min-height: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background-color: #353245;
         color: white;
         text-align: center;
-     
+        
+        .footerContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                line-height: 33px;
+        }
+
+        .highlightFooter{
+                font-weight: bold;
+                color: #b1ac92;
+                margin-left:20px;
+                margin-right: 5px;
+                
+        }
+        
 }
