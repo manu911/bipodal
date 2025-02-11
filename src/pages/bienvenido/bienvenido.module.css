@@ -43,7 +43,7 @@
 @media(max-width: 768px) {
     .containerPageBienvenido {
         flex-direction: column;
-        padding: 5px;
+        padding: 0;
     }
 
     .textContainer {
