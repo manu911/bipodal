@@ -17,6 +17,16 @@
                 justify-content: center;
                 flex-wrap: wrap;
                 line-height: 33px;
+
+                .footerItem{
+                        display: flex;
+                        line-height: 33px;
+                        align-items: center;
+                        justify-content: center;
+                        a{
+                                height: 35px;
+                        }
+                }
         }
 
         .highlightFooter{
