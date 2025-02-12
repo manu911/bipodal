@@ -23,7 +23,7 @@
                         line-height: 33px;
                         align-items: center;
                         justify-content: center;
-                        a{
+                        a.whatsappIcon{
                                 height: 35px;
                         }
                 }
