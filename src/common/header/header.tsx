@@ -8,16 +8,17 @@ import { LinearProgress } from "@mui/material";
 export default function Header() {
   const [progress, setProgress] = useState(0);
   useEffect(() => {
+    console.log("asd");
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollTop = document.body.scrollTop;
+      const docHeight = document.body.scrollHeight - document.body.offsetHeight;
       const scrollPercent = (scrollTop / docHeight) * 100;
       console.log(scrollPercent);
       setProgress(scrollPercent);
     };
-    window.addEventListener('scroll', handleScroll);
+    document.body.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      document.body.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
