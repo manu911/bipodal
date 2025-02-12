@@ -7,7 +7,9 @@ export default function DondeEstamos() {
 
         <div className={styles.containerPageDondeEstamos}>
             <h2>¿Dónde estamos?</h2>
-            <GoogleMapComponent></GoogleMapComponent>
+            <div className={styles.containerMap}>
+                <GoogleMapComponent></GoogleMapComponent>
+            </div>
 
         </div>
     );

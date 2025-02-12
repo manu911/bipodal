@@ -18,7 +18,7 @@ const GoogleMapComponent = () => {
 
   const defaultMapContainerStyle = {
     width: '72vw',
-    height: '300px',
+    aspectRatio:16/9,
     borderRadius: '20px',
   };
   const defaultMapOptions = {
