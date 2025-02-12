@@ -17,8 +17,8 @@ const center = {
 const GoogleMapComponent = () => {
 
   const defaultMapContainerStyle = {
-    width: '400px',
-    height: '400px',
+    width: '72vw',
+    height: '300px',
     borderRadius: '20px',
   };
   const defaultMapOptions = {
@@ -34,7 +34,7 @@ const GoogleMapComponent = () => {
         <GoogleMap
           mapContainerStyle={defaultMapContainerStyle}
           center={center}
-          zoom={17}
+          zoom={16}
           options={defaultMapOptions}
         >
           <InfoWindow position={center}>

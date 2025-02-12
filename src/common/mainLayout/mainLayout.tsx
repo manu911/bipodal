@@ -13,7 +13,7 @@ const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 export default function MainLayout({children}:HeaderProps) {
   return (
    <>
-      <div className={`${roboto.className} ${styles.page}`}>
+      <div className={`${roboto.className}`}>
         <Header></Header>
         <main className={styles.main}>
         {children}

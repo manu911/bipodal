@@ -1,5 +1,5 @@
 main.main{
-    max-height: calc(100vh - 120px);
+    max-height: calc(100vh - 60px);
     display: flex;
     gap:20px;
     flex-direction: column;
