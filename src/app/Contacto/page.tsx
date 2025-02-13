@@ -10,6 +10,7 @@ export default function Contacto() {
   return (
         <Layout>
           <div className={styles.contacto}>
+            <h1>Con tacto</h1>
             </div>
         </Layout>
   );

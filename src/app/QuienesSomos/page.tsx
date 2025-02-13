@@ -8,6 +8,6 @@ import '@fontsource/roboto/700.css';
 
 export default function QuienesSomos() {
   return (
-        <Layout>quien</Layout>
+        <Layout><b>Tu puta madre.</b> </Layout>
   );
 }
