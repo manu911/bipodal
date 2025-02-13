@@ -6,7 +6,7 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html className={styles.default}>
+        <html className={styles.default + ' ' + styles.html}>
             <Head>
                 <title>Bipodal</title>
                 <link rel="icon" href="/vercel.ico" />

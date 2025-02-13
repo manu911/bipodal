@@ -5,8 +5,14 @@
     background-color: #f5f5f5;
 }
 .containerTitle{
-    padding: 20px 50px;
-    width: 100%;
+    padding: 5cap 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
     
     .title{
         font-size: 2rem;
@@ -17,5 +23,16 @@
     }
     .description{
         width:80%;
+    }
+}
+@media (max-width: 768px){
+    .containerTitle{
+        
+        padding: 0px;
+        padding-top:20px;
+        gap:0px;
+        .title{
+            font-size: 1.3rem;
+        }
     }
 }

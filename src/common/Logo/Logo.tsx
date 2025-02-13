@@ -19,8 +19,8 @@ export default function Logo({ children, size = Size.XS }: LogoProps) {
  
         switch (size) {
             case Size.XXS:
-                heightLogo = 35;
-                widthLogo = 45;
+                heightLogo = 27;
+                widthLogo = 34;
                 srcLogo="./Logo-S.png";
             break;
             case Size.XS:

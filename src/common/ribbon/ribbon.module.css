@@ -1,18 +1,32 @@
-.ribbonContainer{
+.primary {
+    --primary-color: var(--blue-color);
+    --secondary-color: var(--white-color);
+    --terciary-color: var(--dark-color);
+}
+
+.secondary {
+    
+    --primary-color: var(--white-color);
+    --secondary-color: var(--dark-color);
+    --terciary-color: var(--blue-color);
+}
+
+.ribbonContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     width: 100%;
     height: auto;
-    background-color: #f5f5f5;
-    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-inline: 50px;
     flex-wrap: wrap;
+    padding: 0;
+    background-color:  var(--primary-color);
+    width: fit-content;
 }
 
-.firstContainer{
+.firstContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,69 +34,90 @@
     position: relative;
     flex: 60%;
     height: 100%;
-    background-color: #f5f5f5;
-    padding-inline:50px;
+
+    padding-inline: 50px;
+    background-color:  var(--primary-color);
 }
 
-.secondContainer{
+.secondContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     flex: 30%;
     height: 100%;
-    background-color: #f5f5f5;
-    margin-top:50px;
-    margin-bottom:50px;
+    background-color:  var(--primary-color);
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
-.title{
+.title {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #333;
+    color: var(--secondary-color);
     margin: 0;
     padding: 10px;
-    
 }
 
-.children{
+.children {
     font-size: 1rem;
     font-weight: 400;
-    color: #333;
+    color: var(--secondary-color);
     margin: 0;
     padding: 20px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
-.button{
-    position: absolute;
+.button {
+    position: relative;
     bottom: 0px;
     right: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: var(--terciary-color);
+    color: var(--white-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    align-self: flex-end;
+    margin-bottom:20px;
 }
 
-.imageContainer{
+.imageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
-    background-color: #f5f5f5;
+    width: 50%;
+    aspect-ratio: 3/4;
+    background-color: var(--primary-color);
     overflow: hidden;
-    border: 1px solid #ddd; /* Add border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 13px;
-    .image{
+
+    .image {
         display: block;
-        position: relative!important;
-        
+        position: relative !important;
     }
-    
 }
 
+
+
+@media (max-width: 768px){
+    .ribbonContainer{
+        padding:0;
+    }
+    .firstContainer{
+        flex: 100%;
+        padding:20px;
+        padding-bottom: 0px;        
+        text-align: center;
+    }
+    .secondContainer{
+        flex: 100%;
+        
+    }
+    .imageContainer{
+        width: 70%;
+    }
+}
