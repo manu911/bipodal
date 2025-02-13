@@ -1,3 +1,25 @@
+@media(max-width: 768px) {
+
+    .footer{
+        padding-top: 7px!important;
+        padding-bottom: 7px!important;
+        .footerContainer{
+              
+                line-height: 25px!important;
+
+                .footerItem{
+                        line-height: 25px!important;
+                        font-size: 0.85rem;
+                        a.whatsappIcon{
+                                height: 30px!important;
+                        }
+                }
+        }
+     
+    }
+}
+
+
 .footer{
    
         position: fixed;
@@ -5,8 +27,8 @@
         bottom: 0;
         width: 100%;
         min-height: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         background-color: #353245;
         color: white;
         text-align: center;
