@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
         <div className={styles.footerItem}>
           <span className={styles.highlightFooter}>Teléfono:</span> 633 11 25 51 
-          <a href="https://api.whatsapp.com/send?phone=656982544&text=Hola k ase?" target="_blank" className={styles.whatsappIcon} >
+          <a href="https://api.whatsapp.com/send?phone=656982544&text=Manu wapissimo 😘 te quiero!🔥" target="_blank" className={styles.whatsappIcon} >
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="33" height="33" viewBox="0 0 48 48">
               <path d="M4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5c5.1,0,9.8,2,13.4,5.6	C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19c0,0,0,0,0,0h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3z"></path>
               <path fill="#fff" d="M4.9,43.8c-0.1,0-0.3-0.1-0.4-0.1c-0.1-0.1-0.2-0.3-0.1-0.5L7,33.5c-1.6-2.9-2.5-6.2-2.5-9.6	C4.5,13.2,13.3,4.5,24,4.5c5.2,0,10.1,2,13.8,5.7c3.7,3.7,5.7,8.6,5.7,13.8c0,10.7-8.7,19.5-19.5,19.5c-3.2,0-6.3-0.8-9.1-2.3	L5,43.8C5,43.8,4.9,43.8,4.9,43.8z"></path>
