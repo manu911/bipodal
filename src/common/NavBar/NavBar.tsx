@@ -40,7 +40,7 @@ export default function NavBar() {
           <MenuItem onClick={popupState.close}><Link className={styles.link} href={createPath("/")} underline="none" sx={{ textTransform: 'none' }}>Bienvenido/a</Link></MenuItem>
           <MenuItem  onClick={popupState.close}><Link className={styles.link} href={createPath("/Servicios")} underline="none" sx={{ textTransform: 'none' }}>Servicios</Link></MenuItem>
           <MenuItem onClick={popupState.close}> <Link className={styles.link} href={createPath("/QuienesSomos")} underline="none" sx={{ textTransform: 'none' }}>¿Quienes somos?</Link></MenuItem>
-          <MenuItem onClick={popupState.close}> <Link className={styles.link} href={createPath("/Contacto")} underline="none" sx={{ textTransform: 'none' }}>Contacto</Link>          </MenuItem>
+          <MenuItem onClick={popupState.close}> <Link className={styles.link} href={createPath("/Contacto")} underline="none" sx={{ textTransform: 'none' }}>Contacto</Link></MenuItem>
         </Menu>
       </div>
     </div>
