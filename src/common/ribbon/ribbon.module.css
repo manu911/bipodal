@@ -1,14 +1,25 @@
 .primary {
     --primary-color: var(--blue-color);
     --secondary-color: var(--white-color);
-    --terciary-color: var(--dark-color);
+    --tertiary-color: var(--dark-color);
 }
 
 .secondary {
-    
+
     --primary-color: var(--white-color);
     --secondary-color: var(--dark-color);
-    --terciary-color: var(--blue-color);
+    --tertiary-color: var(--blue-color);
+}
+
+.tertiary {
+    --primary-color: var(--purple-color);
+    --secondary-color: var(--white-color);
+    --tertiary-color: var(--dark-color);
+}
+.quaternary{
+    --primary-color: var(--orange-color);
+    --secondary-color: var(--dark-color);
+    --tertiary-color: var(--white-color);
 }
 
 .ribbonContainer {
@@ -18,12 +29,11 @@
     position: relative;
     width: 100%;
     height: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-inline: 50px;
     flex-wrap: wrap;
     padding: 0;
-    background-color:  var(--primary-color);
-    width: fit-content;
+    background-color: var(--primary-color);
+    width: 100vw;
 }
 
 .firstContainer {
@@ -34,9 +44,9 @@
     position: relative;
     flex: 60%;
     height: 100%;
-
+    margin-top: 20px;
     padding-inline: 50px;
-    background-color:  var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .secondContainer {
@@ -46,7 +56,7 @@
     position: relative;
     flex: 30%;
     height: 100%;
-    background-color:  var(--primary-color);
+    background-color: var(--primary-color);
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -74,13 +84,13 @@
     bottom: 0px;
     right: 10px;
     padding: 10px 20px;
-    background-color: var(--terciary-color);
+    background-color: var(--tertiary-color);
     color: var(--white-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     align-self: flex-end;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .imageContainer {
@@ -103,21 +113,24 @@
 
 
 
-@media (max-width: 768px){
-    .ribbonContainer{
-        padding:0;
+@media (max-width: 768px) {
+    .ribbonContainer {
+        padding: 0;
     }
-    .firstContainer{
+
+    .firstContainer {
         flex: 100%;
-        padding:20px;
-        padding-bottom: 0px;        
+        padding: 20px;
+        padding-bottom: 0px;
         text-align: center;
     }
-    .secondContainer{
+
+    .secondContainer {
         flex: 100%;
-        
+
     }
-    .imageContainer{
+
+    .imageContainer {
         width: 70%;
     }
 }
