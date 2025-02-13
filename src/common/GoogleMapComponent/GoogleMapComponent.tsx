@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { GoogleMap, InfoWindow, LoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, InfoBox, InfoWindow, LoadScript, Marker } from '@react-google-maps/api';
 import { config } from 'dotenv';
 import Logo from '../Logo/Logo';
 import { Size } from '@/utils/types.module';
@@ -37,11 +37,17 @@ const GoogleMapComponent = () => {
           zoom={16}
           options={defaultMapOptions}
         >
-          <InfoWindow position={center}>
+          <InfoBox position={center}>
+          <div>
+              <Logo size={Size.XXS} />
+            </div>
+          </InfoBox>
+{/*           
+          <InfoWindow position={center} >
             <div>
               <Logo size={Size.XXS} />
             </div>
-          </InfoWindow>
+          </InfoWindow> */}
           <Marker position={center} />
 
 
