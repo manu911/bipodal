@@ -17,8 +17,8 @@ const center = {
 const GoogleMapComponent = () => {
 
   const defaultMapContainerStyle = {
-    width: '84vw',
-    aspectRatio:16/9,
+    width: '88vw',
+    aspectRatio:4/3,
     borderRadius: '20px',
   };
   const defaultMapOptions = {
