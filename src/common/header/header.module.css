@@ -9,6 +9,6 @@
     top: 0;
     left: 0;
     width: 100vw;
-    background-color: white; /* Optional: Add a background color to the header */
+    background-color: var(--white-color); /* Optional: Add a background color to the header */
     z-index: 1000; /* Ensure the header is above other content */
 }

@@ -3,16 +3,14 @@
     --secondary-color: var(--white-color);
     --tertiary-color: var(--dark-color);
 }
-
 .secondary {
 
     --primary-color: var(--white-color);
     --secondary-color: var(--dark-color);
     --tertiary-color: var(--blue-color);
 }
-
 .tertiary {
-    --primary-color: var(--purple-color);
+    --primary-color: var(--red-color);
     --secondary-color: var(--white-color);
     --tertiary-color: var(--dark-color);
 }

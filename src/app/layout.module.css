@@ -10,9 +10,11 @@
     
 }
 html.html{
-    --blue-color: #007bff;
+    /* --blue-color: #007bff; */
+    --blue-color: #2b7db5;
+    --bluedark-color: #113766;
     --white-color: #f5f5f5;
     --dark-color:#333;
-    --purple-color:#904c99;
-    --orange-color:#ffa200;
+    --red-color:#b52b39;
+    --orange-color:#b5a72b;
 }
