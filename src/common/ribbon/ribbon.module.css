@@ -2,22 +2,27 @@
     --primary-color: var(--blue-color);
     --secondary-color: var(--white-color);
     --tertiary-color: var(--dark-color);
+    --title: var(--white-color);
 }
+
 .secondary {
 
     --primary-color: var(--white-color);
     --secondary-color: var(--dark-color);
     --tertiary-color: var(--blue-color);
+    --title: var(--darkgray-color);
 }
 .tertiary {
     --primary-color: var(--red-color);
     --secondary-color: var(--white-color);
     --tertiary-color: var(--dark-color);
+    --title: var(--white-color);
 }
 .quaternary{
     --primary-color: var(--orange-color);
     --secondary-color: var(--dark-color);
     --tertiary-color: var(--white-color);
+    --title: var(--darkgray-color);
 }
 
 .ribbonContainer {
@@ -63,7 +68,7 @@
 .title {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--secondary-color);
+    color: var(--title);
     margin: 0;
     padding: 10px;
 }

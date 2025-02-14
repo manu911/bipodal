@@ -10,6 +10,14 @@
     flex-wrap: nopwrap;
     
 }
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--darkgray-color);
+    margin: 0;
+    padding: 0;
+}
+
 .containerMap{
 display: block;
 }
