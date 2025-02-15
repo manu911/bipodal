@@ -33,6 +33,7 @@ export default function Ribbon({ children, ...props }: RibbonProps & { children:
                     <div className={styles.imageContainer}>
                         <Image
                             fill={true}
+                            objectFit="cover"
                             className={styles.image}
                             src={props.imgSrc}
                             alt={props.imgAlt} />

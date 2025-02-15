@@ -15,7 +15,7 @@ export default function Bienvenido() {
             </div>
 
             <div className={styles.clinicaImgContainer}>
-                <Image className={styles.logoImg} src='./Bipodal-clinica.jpg' alt="Interior Clinica Bipodal" width="500" height="700" style={{ position: "relative" }} />
+                <Image className={styles.logoImg} src='./cirugiaUngueal.jpg' alt="Interior Clinica Bipodal" width="500" height="700" style={{ position: "relative" }} />
             </div>
             
         </div>

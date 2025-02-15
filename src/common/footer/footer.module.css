@@ -30,7 +30,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         background-color: #353245;
-        color: white;
+        color: var(--white-color);
         text-align: center;
         
         .footerContainer{

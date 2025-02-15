@@ -1,0 +1,40 @@
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100vw;
+  background-color: var(--white-color);
+  
+}
+.title {
+  background-color: transparent;
+  font-size: 1.95rem;
+  color: var(--darkgray-color);
+  display: block;
+  position: absolute;
+  top:40px;
+  z-index: 1;
+  font-size: min(3rem, 7vw);
+  
+}
+
+.imageContainer {
+  display: block;
+  margin-top: 20px;
+
+  background-color: var(--primary-color);
+  z-index: 0;
+
+  position: relative;
+  width: clamp(100px, 100vw, 900px);
+  height: clamp(10px, 100vh, 9000px);
+  margin-top: max(-350px, -10vw);
+}
+
+.image {
+  object-position: 0% 0%;
+
+}
