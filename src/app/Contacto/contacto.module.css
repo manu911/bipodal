@@ -1,10 +1,13 @@
 .contactoPage{
-    padding:10px 20px;
+    padding:10px min(5vw, 50px);
     padding-bottom:100px;
     color:var(--dark-color);
     
 }
+
 .map{
+    position: relative;
     width: 100%;
-    height: 300px;
+    height: min(60vw, 700px);
+    border:none;
 }

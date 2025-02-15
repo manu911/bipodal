@@ -26,15 +26,16 @@ export default function Contacto() {
         </p>
         <b>Información de contacto</b>
         <p>
-          Teléfono: 633 11 25 51
+          Teléfono: 633 11 25 51</p>
+        <p>
           Email: info@bipodalpodologia.com
         </p>
         <p>
           * El horario puede sufrir variaciones en función de la agenda.
           * Se recomienda acudir a consulta habiendo concertado una cita previamente.
         </p>
-
-        <iframe className={styles.map} loading="lazy" src="https://maps.google.com/maps?q=Avinguda%20Novelda%2C%2054%2C%2003010%20Alacant%2C%20Alicante&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" title="Avinguda Novelda, 54, 03010 Alacant, Alicante" aria-label="Avinguda Novelda, 54, 03010 Alacant, Alicante"></iframe>
+          <iframe className={styles.map} loading="lazy" src="https://maps.google.com/maps?q=Avinguda%20Novelda%2C%2054%2C%2003010%20Alacant%2C%20Alicante&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" title="Avinguda Novelda, 54, 03010 Alacant, Alicante" aria-label="Avinguda Novelda, 54, 03010 Alacant, Alicante"></iframe>
+  
       </div>
     </Layout>
   );
