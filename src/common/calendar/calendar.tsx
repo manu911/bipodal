@@ -18,7 +18,7 @@ export default class DoubleButton extends React.Component {
         this.handleItemClick = this.handleItemClick.bind(this);
     }
 
-    public handleItemClick(event: SyntheticEvent<any>, name: string): void {
+    public handleItemClick(event: SyntheticEvent<object>, name: string): void {
         if (name === 'sign-in') {
             console.log(apiCalendar.handleAuthClick())
         } else if (name === 'sign-out') {

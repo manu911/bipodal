@@ -1,6 +1,5 @@
 
-'use client'
-import DoubleButton from "@/common/calendar/calendar";
+
 import styles from "./contacto.module.css";
 import Layout from "@/common/mainLayout/mainLayout";
 import '@fontsource/roboto/300.css';
@@ -10,9 +9,7 @@ import '@fontsource/roboto/700.css';
 
 
 export default function Contacto() {
-  function calendar(){
-    
-  }
+
   return (
     <Layout>
       <div className={styles.contactoPage}>
@@ -41,9 +38,7 @@ export default function Contacto() {
           * Se recomienda acudir a consulta habiendo concertado una cita previamente.
         </p>
           <iframe className={styles.map} loading="lazy" src="https://maps.google.com/maps?q=Avinguda%20Novelda%2C%2054%2C%2003010%20Alacant%2C%20Alicante&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" title="Avinguda Novelda, 54, 03010 Alacant, Alicante" aria-label="Avinguda Novelda, 54, 03010 Alacant, Alicante"></iframe>
-          <button onClick={calendar}></button>
-
-          <DoubleButton></DoubleButton>
+        
       </div>
     </Layout>
   );
