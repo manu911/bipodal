@@ -12,6 +12,7 @@ export default function Page() {
     <RootLayout>
       <MainLayout >
         <div className={styles.mainLayout}>
+       
           <Bienvenido></Bienvenido>
           <DondeEstamos></DondeEstamos>
         </div>

@@ -5,5 +5,10 @@
   margin-top:50px;
   gap: 20px;
   width: fit-content;
+  background-image: url(/src/public/lines.png);
+  z-index: 1;
+
 
 }
+
+

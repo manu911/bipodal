@@ -1,0 +1,18 @@
+h1{
+    background-color: #fffC;
+    z-index: 5;
+    border-radius: 8px;
+    padding:15px;
+  }
+  h2{
+    background-color: #fffC;
+    z-index: 5;
+    border-radius: 8px;
+    padding:15px;
+  }
+  p{
+    padding:15px;
+    background-color: #fffC;
+    z-index: 5;
+    border-radius: 8px;
+  }

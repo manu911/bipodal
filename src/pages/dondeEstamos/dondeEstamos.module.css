@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--white-color);
     padding-bottom:120px;
     flex-direction: column;
     flex-wrap: nopwrap;

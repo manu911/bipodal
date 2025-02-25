@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from './layout.module.css';
+import Image from 'next/image';
 export default function RootLayout({
     children,
 }: {
@@ -12,7 +13,14 @@ export default function RootLayout({
                 <link rel="icon" href="/vercel.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </Head>
-            <body className={styles.default}>{children}</body>
+            <body className={styles.default}>{children}
+                 <Image
+                            fill={true}
+                            objectFit="cover"
+                            className={styles.image}
+                            src={'lines.png'}
+                            alt={''} />
+            </body>
         </html>
     )
 }
