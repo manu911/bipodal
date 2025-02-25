@@ -23,8 +23,8 @@ html.html{
 
 .image{
     z-index: -5;
-    opacity: 0.5;
-    filter: blur(2px);
+    opacity: 0.7;
+    filter: blur(1px);
     -webkit-user-drag: none;
     user-select: none;
     }
