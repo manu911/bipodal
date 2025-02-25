@@ -31,5 +31,11 @@ function fetchReviews() {
       });
     console.log("data",data);
   }
-  return <button onClick={fetchReviews}>asdfasdf</button>;
+  return 
+  <>
+  <button onClick={fetchReviews}>asdfasdf</button>;
+  <script async
+    src={`https://maps.googleapis.com/maps/api/js?key=`+process.env.GOOGLE_REVIEWS_API_KEY +`&loading=async&libraries=places&callback=initMap`}>
+</script>
+  </>
 }
