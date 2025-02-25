@@ -1,5 +1,6 @@
 
 
+'use client'
 import styles from "./contacto.module.css";
 import Layout from "@/common/mainLayout/mainLayout";
 import '@fontsource/roboto/300.css';
@@ -7,6 +8,8 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+import { ReactGoogleReviews } from "react-google-reviews";
+import "react-google-reviews/dist/index.css";
 
 export default function Contacto() {
 
@@ -38,7 +41,13 @@ export default function Contacto() {
           * Se recomienda acudir a consulta habiendo concertado una cita previamente.
         </p>
           <iframe className={styles.map} loading="lazy" src="https://maps.google.com/maps?q=Avinguda%20Novelda%2C%2054%2C%2003010%20Alacant%2C%20Alicante&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" title="Avinguda Novelda, 54, 03010 Alacant, Alicante" aria-label="Avinguda Novelda, 54, 03010 Alacant, Alicante"></iframe>
-        
+
+
+      <ReactGoogleReviews 
+        layout="carousel" 
+        featurableId="ChIJeQHQIos3Yg0R3u_s63b0cik"
+      />
+
       </div>
     </Layout>
   );
