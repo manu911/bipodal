@@ -24,7 +24,7 @@ html.html{
 .image{
     z-index: -5;
     opacity: 0.7;
-    filter: blur(1px);
+    filter: blur(0px);
     -webkit-user-drag: none;
     user-select: none;
     }
