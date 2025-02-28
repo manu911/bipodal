@@ -23,7 +23,7 @@
 .imageSlot:hover{
     cursor: pointer;
     height: 400%;
-    p,span{
+    p.description,span.title{
         display: block;
     }
     .image{
