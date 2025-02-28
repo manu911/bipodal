@@ -3,7 +3,7 @@ import Ribbon from "@/common/ribbon/ribbon";
 import styles from "./Servicios.module.css";
 import Layout from "@/common/mainLayout/mainLayout";
 import Acordeon from "@/common/acordeon/acordeon";
-import { AcordeonProps } from "@/common/acordeon/acordeon";
+import { AcordeonItemProps } from "@/common/acordeon/acordeon";
 interface RibbonProps {
   title: string;
   buttonText: string;
@@ -151,7 +151,7 @@ export default function Servicios() {
       imgLeft: false,
     },
   ];
-  const dataAcordeon: Array<AcordeonProps> = [
+  const dataAcordeon: Array<AcordeonItemProps> = [
     {
       title: "Ofrecemos nuestros servicios de podología a domicilio",
       imgSrc: "./Onicomicosis.jpg",

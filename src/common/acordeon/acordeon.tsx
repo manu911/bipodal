@@ -20,7 +20,7 @@ export default function Acordeon(props: AcordeonProps) {
       {props.data.map((el) => {
         return (
           <div className={styles.imageSlot} key={el.key}>
-            <Image className={styles.image} src={el.imgSrc} fill/>
+            <Image className={styles.image} src={el.imgSrc} alt={"pie"} fill/>
             <span className={styles.title}>{el.title}</span>
             <p className={styles.description}>{el.description}</p>
           </div>
