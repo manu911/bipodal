@@ -35,7 +35,7 @@ export default function Servicios() {
   },
   {
     title: 'Ortesis Plantar',
-    imgSrc: './ortesisPlantar.jpg',
+    imgSrc: './OrtesisPlantar.jpg',
     imgAlt: 'pies',
     buttonText: 'Más Información',
     children: `Las ortesis plantares que ofrecemos no son solo plantillas; son soluciones a medida para tus pies. Desde la corrección de problemas biomecánicos hasta el alivio de molestias específicas, nuestras ortesis son diseñadas para adaptarse a la anatomía única de tus pies. Al proporcionar soporte personalizado, contribuyen no solo a mejorar la comodidad, sino también a abordar problemas a largo plazo, brindando una solución integral para tus necesidades podológicas.`,
@@ -62,7 +62,7 @@ export default function Servicios() {
   }, 
   {
     title: 'Onicomicosis',
-    imgSrc: './onicomicosis.jpg',
+    imgSrc: './Onicomicosis.jpg',
     imgAlt: 'pies',
     buttonText: 'Más Información',
     children: `Integrado dentro de nuestros servicios de quiropodia, el tratamiento de la onicomicosis es abordado con un enfoque integral. No solo aplicamos antimicóticos para tratar la infección, sino que también brindamos orientación sobre cuidados en el hogar y medidas preventivas para garantizar una recuperación duradera y prevenir futuras infecciones.`,
@@ -71,7 +71,7 @@ export default function Servicios() {
   },
   {
     title: 'Onicocriptosis o uña encarnada',
-    imgSrc: './onicocriptosis.jpg',
+    imgSrc: './Onicocriptosis.jpg',
     imgAlt: 'pies',
     buttonText: 'Más Información',
     children: `Dentro de la quiropodia, ofrecemos tratamiento para la uña encarnada (espiculotomía) siempre que no sea necesario recurrir a la cirugía o anestesia. Nuestra atención se centra en aliviar el dolor y corregir la condición de forma no invasiva, garantizando una recuperación rápida y cómoda.`,
@@ -134,7 +134,7 @@ export default function Servicios() {
   },  
   {
     title: 'Infiltraciones podológicas',
-    imgSrc: './infiltraciones.jpg',
+    imgSrc: './infiltracionesPodologicas.jpg',
     imgAlt: 'pies',
     buttonText: 'Más Información',
     children: `Ofrecemos el servicio de infiltraciones en Clínica Bipodal, una solución eficaz para disminuir la inflamación directamente en el punto de dolor. Nuestros podólogos especializados realizan infiltraciones de corticoides con precisión, brindando alivio a los pacientes que experimentan molestias persistentes. Descubre cómo este tratamiento puede ayudarte a recuperar la movilidad y disfrutar de una vida sin dolor.`,

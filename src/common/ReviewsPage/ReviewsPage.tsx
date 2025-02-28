@@ -5,7 +5,7 @@ export function ReviewsPage({}) {
   const myInit: RequestInit = {
     method: "POST",
     headers: myHeaders,
-    mode: "cors",
+    mode: "no-cors",
     cache: "default",
   };
 function fetchReviews() {
